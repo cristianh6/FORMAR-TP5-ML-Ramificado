@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;     
+}
+
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+article {
+    text-align: center;
+}
+
+footer {
+    margin-top: 5vw;
+}
+
+footer article {
+    margin-top: 3vw;
+}
+
+footer article i {
+    color: var(--celeste);
+}
+
+.prices {
+    font-size: 18px;
+}
+
+.discounts {
+    font-size: 16px;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 5vw;
+    padding-top: 5vw;
+}
+
+header {
+    background-color: var(--amarillo);
+}
+
+.home_search-bar {
+    margin-left: 5vw;
+}
+
+.home_search-bar i{
+    text-align: center;
+    color: black;
+}
+
+#holding_dollar-div {
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+#burger-menu {
+    width: 3em;
+    height: 2em;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    background: var(--celeste);
+    margin-bottom: 10px;
+}
+
+#burger-menu i {
+    color: white;
+}
+
