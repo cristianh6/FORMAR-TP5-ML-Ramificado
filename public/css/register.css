@@ -1,0 +1,23 @@
+.register__main{
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+    background-color: #ebebeb;
+    padding: 0.5vw;
+}
+
+.register__main form div {
+    margin: 3vw;
+}
+
+
+.register__main form div input[type=text], .register__main form div input[type=date], .register__main form div input[type=password], .register__main form div input[type=password2]{
+    width: 75%;
+    height: 3vw;
+    border: none;
+    border-radius: 1vh;
+}
+
+
+
+

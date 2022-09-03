@@ -1,0 +1,27 @@
+.login__main{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 0.5vw;
+}
+
+.login__main form div {
+    margin: 3vw;
+}
+
+.login__main form div input[type=text], .login__main form div input[type=password]{
+    width: 60%;
+    height: 3vw;
+    border: none;
+    border-radius: 1vh;
+}
+
+.login__main button {
+    width: 60%;
+    height: 3vw;
+    border: none;
+    border-radius: 1vh;
+    color: white;
+    background-color: var(--celeste);
+}
