@@ -37,7 +37,7 @@ span {
 }
 
 footer {
-    margin-top: 10vw;
+    margin-top: 1vw;
 }
 
 #logo {
@@ -81,8 +81,10 @@ header {
     margin: 0 auto;
 }
 
+
+
 .home__search-bar i {
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 15px;
     background-color: white;
@@ -147,14 +149,6 @@ header {
     margin-bottom: 10px;
 }
 
-.home__main-product {
-    text-align: left;
-    display: block;
-    border-top: 1px solid #ebebeb;
-    padding: 15px 15px;
-    display: none;
-}
-
 .home__main-product .truck {
     position: relative;
 
@@ -195,6 +189,17 @@ footer article i {
     color: #39b54a;
 }
 
+.home__main-product {
+    display: none;
+}
+
+.home__main-article:hover .home__main-product {
+    display: block;
+    text-align: left;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 15px;
+}
+
 @media (min-width: 361px) {
     .header__logo-search {
         width: 100%;
@@ -219,6 +224,17 @@ footer article i {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .home__main-product {
+        display: none;
+    }
+
+    .home__main-article:hover .home__main-product{
+        display: block;
+        text-align: left;
+        border-top: 1px solid #ebebeb;
+        padding: 15px 15px;
     }
 
     .home__search-bar i{
@@ -252,10 +268,6 @@ footer article i {
 
     .home__main-article {
         width: 45%;
-    }
-
-    .home__main-product {
-        display: block;
     }
 
     .home__main-product span{
@@ -296,12 +308,17 @@ footer article i {
     .header-lists a {
         font-size: 0.7rem;
     }
+
+    footer {
+        margin-top: 1vw;
+    }
+
+    footer section{
+        margin-bottom: 5vw;
+    }
 }
 
 @media (min-width: 769px) {
-    * {
-        box-shadow: ​0px​ ​0px​ ​10px​ ​rgb​(​100​, ​100​, ​100​);
-    }
 
     .home__main-product span{
         font-size: 1rem;
@@ -323,7 +340,20 @@ footer article i {
     }
 
     .home__main-product {
+        display: none;
+    }
+
+    .home__main-product:hover .home__main-product {
         display: block;
+        text-align: left;
+        border-top: 1px solid #ebebeb;
+        padding: 15px 15px;
+        box-shadow: ​0px​ ​0px​ ​10px​ ​rgb​(​100​, ​100​, ​100​);
+    }
+
+    .home__main-product .truck i:hover {
+        transition: 2s;
+        transform: rotateZ(-90deg);
     }
 
     #holding_dollar-div {
@@ -368,6 +398,26 @@ footer article i {
 
     .home__search-bar .search-input i{
         font-size: 1.5em;
+    }
+
+    footer {
+        margin-top: 1vw;
+    }
+
+    footer section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+
+    footer section i{
+        font-size: 2em;
+    }
+
+    footer section i:hover{
+        color: var(--amarillo);
     }
 
 }
